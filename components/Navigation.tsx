@@ -52,19 +52,19 @@ export default function Navigation({ activeSection = 'hero' }: NavigationProps) 
                   <span className="text-foreground">{item.name}</span>
                 </button>
               ))}
-              <Button 
+              {/* <Button 
                 variant="outline" 
                 size="sm" 
                 onClick={() => {
                   const link = document.createElement('a');
-                  link.href = '/resume.pdf';
-                  link.download = 'resume.pdf';
+                  link.href = '/salvatore_ficchi.pdf';
+                  link.download = 'salvatore_ficchi.pdf';
                   link.click();
                 }}
                 data-testid="button-resume"
               >
                 Resume
-              </Button>
+              </Button> */}
             </div>
 
             <Button
@@ -94,7 +94,7 @@ export default function Navigation({ activeSection = 'hero' }: NavigationProps) 
                 <span className="text-foreground">{item.name}</span>
               </button>
             ))}
-            <Button 
+            {/* <Button 
               variant="outline"
               onClick={() => {
                 const link = document.createElement('a');
@@ -106,27 +106,27 @@ export default function Navigation({ activeSection = 'hero' }: NavigationProps) 
               data-testid="button-mobile-resume"
             >
               Resume
-            </Button>
+            </Button> */}
           </div>
         </div>
       )}
 
       <div className="hidden lg:flex fixed left-12 bottom-0 flex-col items-center gap-6 z-10">
-        <a href="https://github.com/guilenandez" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary hover:-translate-y-1 transition-all" data-testid="link-github">
+        <a href="https://github.com/fullstackdever" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary hover:-translate-y-1 transition-all" data-testid="link-github">
           <Github className="h-5 w-5" />
         </a>
-        <a href="https://www.linkedin.com/in/guillermo-fernandez-a0580b210" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary hover:-translate-y-1 transition-all" data-testid="link-linkedin">
+        <a href="https://www.linkedin.com/in/salficchi352" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary hover:-translate-y-1 transition-all" data-testid="link-linkedin">
           <Linkedin className="h-5 w-5" />
         </a>
-        <a href="mailto:guilleferd15@gmail.com" className="text-muted-foreground hover:text-primary hover:-translate-y-1 transition-all" data-testid="link-email-side">
+        <a href="mailto:ficchisalvatore30@gmail.com" className="text-muted-foreground hover:text-primary hover:-translate-y-1 transition-all" data-testid="link-email-side">
           <Mail className="h-5 w-5" />
         </a>
         <div className="w-px h-24 bg-muted-foreground/30" />
       </div>
 
       <div className="hidden lg:flex fixed right-12 bottom-0 flex-col items-center gap-6 z-10">
-        <a href="mailto:guilleferd15@gmail.com" className="text-muted-foreground hover:text-primary hover:-translate-y-1 transition-all [writing-mode:vertical-lr] text-sm tracking-wider font-mono" data-testid="link-email-text">
-          guilleferd15@gmail.com
+        <a href="mailto:ficchisalvatore30@gmail.com" className="text-muted-foreground hover:text-primary hover:-translate-y-1 transition-all [writing-mode:vertical-lr] text-sm tracking-wider font-mono" data-testid="link-email-text">
+          ficchisalvatore30@gmail.com
         </a>
         <div className="w-px h-24 bg-muted-foreground/30" />
       </div>

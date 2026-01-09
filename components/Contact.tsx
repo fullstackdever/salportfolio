@@ -8,19 +8,19 @@ export default function Contact() {
     { 
       name: 'GitHub', 
       icon: Github, 
-      url: 'https://github.com/guilenandez',
+      url: 'https://github.com/fullstackdever',
       testId: 'link-contact-github'
     },
     { 
       name: 'LinkedIn', 
       icon: Linkedin, 
-      url: 'https://www.linkedin.com/in/guillermo-fernandez-a0580b210',
+      url: 'https://www.linkedin.com/in/salficchi352',
       testId: 'link-contact-linkedin'
     },
     { 
       name: 'Email', 
       icon: Mail, 
-      url: 'mailto:guilleferd15@gmail.com',
+      url: 'mailto:salvatorework15@gmail.com',
       testId: 'link-contact-email'
     },
   ];

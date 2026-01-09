@@ -14,39 +14,46 @@ export default function Experience() {
 
   const jobs: Job[] = [
     {
-      company: 'Walmart Global Tech',
+      company: 'Intellias',
       title: 'Senior Software Engineer',
-      duration: '2022.07 - 2025.06',
+      duration: '2021.08 - 2025.10',
       responsibilities: [
-        'Created Payment Processing Platform with technologies including React, Python, C#, Node.js, Express.js, with AWS Cloud',
-        'Worked on Web/Mobile Banking Software for a Bank with React.js, React Native, Node.js, Express.js, Nest.js and .Net',
-        'Hibernate Developed and utilized microservices, PostgreSQL, Elasticsearch, GraphQL, for multiple projects',
-        'Tuned performance for a React/Node.js application and analyzed performance on slow sections of the UI and tuned database queries',
-        'Implemented robust error handling to manage API request failures and rate limits'
+        "Built a microservice structure of an online medical advisor app with Python, C#, ASP.Net, Ruby on Rails, JavaScript, Node.js using AWS like ECS, EKS.",
+        "Developed an e-learning platform using Angular, Nest.js, incorporating real-time features such as messaging, video/audio calls, notifications using Twilio APIs, RabbitMQ, and LiveKit, and integrated payment gateways",
+        "Created analysis and report dashboards to track engagement metrics with Prometheus, Elasticsearch, and InfluxDB.",
+        "Optimized server-client communication by leveraging WebSocket protocol buffers, resulting in a 25% reduction in payload size and faster data serialization",
+        "Used Python’s SQLAlchemy ORM to manage database interactions, ensuring data integrity and simplifying complex database operations.",
+        "Employed Python libraries like Pandas, NumPy, and Matplotlib to manipulate, analyze, and visualize large datasets, providing actionable insights for business decisions.",
+        "Crafted and deployed a highly optimized REST API, improving API efficiency by 30% based on analysis of the project.",
+        "Worked on Agile methodology using Slack for collaboration, Azure DevOps for project management, version control, automated testing and Azure Pipelines for building CI/CD pipelines."
       ],
     },
     {
-      company: 'Infuse',
-      title: 'Software Engineer',
-      duration: '2020.05 - 2022.01',
+      company: 'Twilio',
+      title: 'Full Stack Software Engineer',
+      duration: '2019.09 - 2021.02',
       responsibilities: [
-        'Developed backend of internal web applications, and services with  Python, Node, C# and Azure Cloud Family',
-        'Built KPI dashboard applications using TypeScript, React, Next.js, Python, MongoDB, utilized Azure Cloud family',
-        'Refactored the NodeJS codebase to Python or C#, enhanced functionalities, and optimized performance',
-        'Worked with CI/CD pipelines using Azure DevOps, Docker, Jenkins, Kubernetes, Terraform, and with automated testing',
-        'Led regular code reviews in GitHub, providing constructive feedback to team members'
+        "Built a showcase portal for Twilio's annual conference, using Next.js, Python, Flask, Django, C# and GraphQL, used by 250+ partners and thousands of users globally.",
+        "Established Twilio’s Survey and Feedback system with real-time feedback collection and analysis and defined backend APIs with Python, Flask making it easy for developers to integrate.",
+        "Implemented a suite of new API features for Twilio Verify using JavaScript and Python, C# enabling real-time verification for over 100,000 daily user transactions.",
+        "Integrated third-party API's such as Stripe, Google Maps and Twilio into existing applications.",
+        "Contribute features to JavaScript and Python based microservices, including real-time signal refreshing and serving.",
+        "Implemented security features using JWT and OAuth2, ensuring robust authentication and authorization mechanisms.",
+        "Reduced backend response times by 30% and improved system scalability by implementing Redis caching strategies, database indexing and query optimization.",
+        "Implemented user-facing financial dashboard portals and verification processes using React.js, D3.js, C#, Blazor and Chart.js."
       ],
     },
     {
-      company: 'Dotsquares',
-      title: 'Backend Engineer',
-      duration: '2017.09 - 2020.03',
+      company: 'AgileEngine',
+      title: 'Software Developer',
+      duration: '2017.05 - 2019.07',
       responsibilities: [
-        'Developed AI/ML based Healthcare platforms using Node.js, Python, C#, .Net and utilized AWS services',
-        'Built a digital customer management platform for all types of financial institutions, with Python, Django, Kafka, MongoDB, PostgreSQL, C#, .Net',
-        'Integrated AWS services including API Gateway, S3, and SQS with Lambda functions for event driven architectures ',
-        'Fully engaged in Agile SDLC, using Jira and Confluence for project management and documentation Conducted Unit ',
-        'Testing, E2E Testing utilizing Selenium, JUnit, Cypress, React Testing Library'
+        'Developed several projects including social community platform and sports betting app using React, Angular, Next.js, C#, Ruby on Rails, Node.js and other technologies.',
+        'Implemented route-based micro-frontend on project management app with React, Angular, with features like task management, team collaboration, reporting dashboards and calendar, reducing dependencies and enabling autonomous teamwork',
+        'Worked with data science teams to preprocess and structure data using Pandas and NumPy, enabling faster model training and testing within production environments.',
+        "Successfully integrated third-party applications and tools, such as Twilio, SendGrid, email marketing services, analytics, inventory management, and shipping solutions to enhance the platform's functionality.",
+        'Ensured proper authorization and access control by implementing OAuth2 and JWT based authentication.',
+        'Executed server-side rendering (SSR) features by NextJS to enhance SEO and improve overall web visibility'
       ],
     },
   ];

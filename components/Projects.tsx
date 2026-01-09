@@ -3,13 +3,14 @@
 import { useState } from 'react';
 import { ExternalLink, Github, Folder } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import fileoImage from '../attached_assets/generated_images/fileo.png';
+import cxITImage from '../attached_assets/generated_images/3cx.png';
 import edroneImage from '../attached_assets/generated_images/edrone.png';
 import uptimeMonitorImage from '../attached_assets/generated_images/pulsetic.png';
-import washingMachinImage from '../attached_assets/generated_images/Schulthess-Maschinen.png';
 import testCaseImage from '../attached_assets/generated_images/testlodge.png';
 import austinMolakImage from '../attached_assets/generated_images/parkplace.png';
 import harnessAIImage from '../attached_assets/generated_images/harnessAI.png';
+import selebilityImage from '../attached_assets/generated_images/Sellerbility.png';
+import digitalPharmacy from '../attached_assets/generated_images/DigitalPharmacy.png';
 
 interface Project {
   title: string;
@@ -49,6 +50,14 @@ export default function Projects() {
       featured: true,
     },
     {
+      title: 'Online arbitrage and wholesale sourcing tool',
+      description: 'Joined as full stack C#, .Net developer to dev team and built backend APIs and frontend with C# and React.js',
+      tech: ['C#', '.Net', 'React.js', 'MySQL', 'Fullstack Development'],
+      external: 'https://www.sellerbility.com',
+      image: selebilityImage.src,
+      featured: true,
+    },
+    {
       title: 'Real Estate Platform',
       description: 'A Real Estate platform in Austin, US. Built Real Esate frontend with Next.js, Tailwind CSS.',
       tech: ['Next.js', 'TypeScript', 'Tailwidnd CSS','SCSS'],
@@ -65,11 +74,19 @@ export default function Projects() {
       featured: true,
     },
     {
-      title: 'Document Management System',
-      description: 'A user-friendly dashboard which can always be accessed from anywhere using a web browser, Built and designed with C#, .Net',
-      tech: ['C#', '.Net', 'MySQL', 'Backend Development', 'RESTful API'],
-      external: 'https://fileo.io',
-      image: fileoImage.src,
+      title: 'Online Pharmacy Platform',
+      description: 'A digital online pharmacy platform, Joined as C# backend developer and built backend APIs and managed database.',
+      tech: ['C#', 'ASP.Net', 'RESTful API', 'Backend Development','Git'],
+      image: digitalPharmacy.src,
+      external: "https://digitalpharmacy.io/",
+      featured: true,
+    },
+    {
+      title: 'Voice call service SaaS',
+      description: 'Business voice call service platform',
+      tech: ['Node.js', 'Twilio', 'MySQL', 'Backend Development', 'RESTful API'],
+      external: 'https://www.3cx.it',
+      image: cxITImage.src,
       featured: true,
     },
   ];

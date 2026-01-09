@@ -3,6 +3,7 @@ import profileImage from '../attached_assets/generated_images/myphoto.jpeg';
 export default function About() {
   const skills = [
     'React',
+    'Angular',
     'Next.js',
     'Python',
     'Node.js',
@@ -11,9 +12,13 @@ export default function About() {
     'Django',
     'Flask',
     'FastAPI',
+    'Ruby',
+    'Ruby on Rails',
     'C#',
+    '.Net',
     'ASP.Net',
     'Blazor',
+    '.Net Core',
     'Express.js',
     'Nest.js',
     'Vue.js',
@@ -23,13 +28,14 @@ export default function About() {
     'PostgreSQL',
     'MongoDB',
     'Tailwind CSS',
-    'MaterialUI',
     'BootStrap',
+    'Azure',
     'Firebase',
     'AWS',
-    'Vercel',
-    'Git',
-    'Jira',
+    'GCP',
+    'Docker',
+    'Kubernetes',
+    'Terraform'
   ];
 
   return (
@@ -44,11 +50,10 @@ export default function About() {
         <div className="grid md:grid-cols-[2fr,1fr] gap-12 items-start">
           <div className="space-y-4 text-muted-foreground" data-testid="text-about-content">
             <p>
-              I’m a Senior Full Stack Engineer with 8 years of hands-on experience crafting robust, scalable, and user-centered web and mobile solutions. I bring structure, clarity, and strong ownership to every project, consistently delivering high-quality results whether partnering closely with teams or driving development independently.
+              Experienced full stack engineer with strong proficiency in Python, Ruby on Rails, React, Next.js, Node.js, Azure and AWS. 
             </p>
             <p>
-              I thrive in ambitious, fast-moving environments and enjoy building polished, feature-rich products for both growing startups and established enterprise clients.
-              With clear communication, a collaborative mindset, and a strong commitment to modern agile development, I focus on engineering software that is dependable, efficient, and built for long-term success.
+              Skilled in building scalable web applications, designing clean APIs, and developing intuitive frontend interfaces. Adept at solving complex technical problems, optimizing, performance, and delivering high-quality code across both client and server environments.
             </p>
             <p>
               Here are my speciallities:

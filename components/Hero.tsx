@@ -17,13 +17,13 @@ export default function Hero() {
           Hi, my name is
         </h1>
         <h2 className="text-5xl md:text-6xl lg:text-7xl font-bold text-foreground mb-3" data-testid="text-name">
-          Guillermo Fernandez.
+          Salvatore Ficchi.
         </h2>
         <h3 className="text-4xl md:text-5xl lg:text-4xl font-bold text-muted-foreground mb-6" data-testid="text-tagline">
-          Full stack engineer.
+          Senior Full Stack Engineer.
         </h3>
         <p className="text-muted-foreground text-lg md:text-xl max-w-2xl mb-12 leading-relaxed" data-testid="text-intro">
-          I’m a full-stack software engineer who builds fast, scalable, and polished digital products from smooth, user-friendly frontends to solid backend systems built to grow. 
+          I’m a senior software engineer who builds fast, scalable, and polished digital products from smooth, user-friendly frontends to solid backend systems built to grow. 
         </p>
         <p className="text-muted-foreground text-lg md:text-xl max-w-2xl mb-12 leading-relaxed" data-testid="text-intro">
           I take complex requirements and turn them into clean, reliable, production-ready solutions, with a strong focus on performance, usability, and real-world results.
